@@ -1,3 +1,11 @@
-<h1>Hola</h1>
+<h1>Hola {{nombre}}</h1>
+<app-padre [contador]="numero"></app-padre>
+
+<app-hijo></app-hijo>
+
+<h2> {{numero}}</h2>
+<button (click)="sumar()">+</button>
+<button (click)="restar()">-</button>
+
 
 <router-outlet />
